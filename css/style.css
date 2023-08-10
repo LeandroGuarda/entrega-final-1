@@ -9,7 +9,7 @@
 
 .carousel-inner img{
     height: auto;
-    /*   */
+       
 }
 
 
@@ -23,9 +23,7 @@ Contacto */
 
 .form-title{
     text-align: center;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    
     
     padding: 10px;
     text-transform: uppercase;
