@@ -70,6 +70,100 @@ Contacto */
 }
 
 
+/* seccion de quienes somos */
+
+.contenedor-qnsomos{
+  padding: 25px;
+  background-color: #2E4053;
+  color: azure;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.texto-qnsomos{
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-top: 2px solid #333;
+}
+
+.image-qnsomos img{
+  width: 800px;
+  
+}
+
+.parrafo-qnsomos{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.parrafo-qnsomos:hover{
+  color: #85C1E9;
+}
+
+
+/* Galeria */
+
+.byDavidMurray{
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-family: fantasy;
+  border-top: 2px solid #333;
+}
+
+
+.strato-david{
+  background-color: #2E4053;
+  display: flex;
+  
+}
+
+
+.producto{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center; /* Centrar horizontalmente*/ 
+  align-items: center; /*Centrar verticalmente*/ 
+  
+} 
+
+.producto__imagen {
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  
+}
+
+.titulo-jazz{
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-family: fantasy;
+  border-top: 2px solid #333;
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
 /* footer */
 
 /* Estilos generales para el footer */
